@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,h1,h5,li{
+    font-family: "PT Sans" , sans-serif;
+    color: #fffffff1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffffe1;
+
+}
+
+i{
+color: white;
+}
+
+.container30{
+    width: 30%;
+    height: 657px;
+    background-color: #222;
+    position: absolute;
+    
+}
+
+/* ********** CONTACTS ********** */
+
+.contacts {
+   
+    position: relative;
+    width: 88%;
+    margin: auto;
+    height: 450px;
+    background-color: rgba(81, 168, 157, 0.815);
+    padding: 10px;
+    top: -50px;
+    right: 134px;
+    margin-left: 174px;
+}
+
+.img-information{
+    display: flex;
+}
+
+.img {
+    flex: 1;
+    line-height: 30;
+    margin-left: 20px;
+    position: relative;
+}
+.img img{
+    color: white;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 7px solid white;
+    
+    
+}
+
+.overflow{
+    overflow: hidden;
+}
+.information{
+    flex: 3;
+}
+
+.information .employer-name {
+    font-size: 70px;
+    color: white;
+    width: -1px;
+    width: 100%;
+    height: 100px;
+    word-spacing: 13px;
+    letter-spacing: 5px;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 27px;
+}
+
+.information .job-name{
+    color: white;
+    font-size: 30px;
+    word-spacing: 1px;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.contact-list{
+    margin-left: 31px;
+}
+.contact-list li{
+    margin-top: 20px;
+    font-size: 25px;
+   
+}
+
+.contact-list i{
+    margin-right: 7px;
+    font-size: 24px;
+
+}
+
+.upper {
+    background-color: #222;
+    width: 25%;
+    border-radius: 10px 0 0;
+    height: 64px;
+    margin-bottom: 40px;
+}
+.left {
+  
+    background-color: #222;
+    width: 94px;
+    height: 550px;
+    display: inline-block;
+}
+.left::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 110px;
+    width: 89px;
+    background-color: #222;
+    bottom: auto;
+    right: 0;
+    left: 0;
+
+
+}
+.lower{
+    background-color: #222;
+    width: 30%;
+    position: relative;
+   border-radius:0 0 0 10px ;
+    height: 1500px;
+    margin: 0; 
+    min-height:0;
+}
+
+.lower::before{
+    content: "";
+    height: 100px;
+    position: absolute;
+    background: #222;
+    top: -60px;
+    width: 100%;
+
+}
+
+.thestyle-of-contact{
+    display: flex;
+}
+html, body {margin: 0; }
+
+
+
+/* ************* SKLLIS ************* */
+
+.level{
+    display: inline-block;
+    width: 400px;
+    height: 10px;
+    background-color: rgba(81, 168, 157, 0.815);
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.css-level.level::after{
+    content: "";
+    width: 170px;
+    height: 10px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+}
+.java-level.level::after{
+    content: "";
+    width: 270px;
+    height: 10px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.react-level.level::after{
+    content: "";
+    width: 320px;
+    height: 10px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.boot-level.level::after{
+    content: "";
+    width: 180px;
+    height: 10px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.skills-name{
+    position: relative;
+    display: inline-block;
+    top: 70px;
+    left: 50px;
+    width: 100px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.skl-levell{
+    margin-bottom: 60px;
+    
+}
+.skl-level{
+    margin: 10px 0 60px 0;
+}
+
+.skills-information{
+    position: relative;
+    top: 80px;
+}
+
+.skill-head{
+    position: relative;
+    top: 100px;
+    left: 51px;
+    letter-spacing: 3px;
+    color: rgba(81, 168, 157, 0.815);
+    font-size: 2rem;
+}
+
+.language-head{
+    position: relative;
+    top: 200px;
+    left: 51px;
+    letter-spacing: 3px;
+    color: rgba(81, 168, 157, 0.815);
+    font-size: 2rem;
+}
+
+.language-information{
+    position: relative;
+    top: 160px;
+    margin-bottom: 150px;
+}
+
+.english-level.level:after{
+    content: "";
+    width: 240px;
+    height: 10px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+/* ***************** PROFILE ************* */
+
+.profile-flex{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.profile {
+    flex: -9;
+    position: relative;
+    width: 56%;
+    top: -55px;
+    margin-right: 185px;
+    height: auto;
+    
+}
+
+.eduction-head{
+background-color:rgba(81, 168, 157, 0.815) ;
+display: inline-block;
+padding: 3px 7px 3px 7px;
+letter-spacing: 6px;
+font-weight: 300;
+font-size: 2rem;
+width: auto;
+margin-bottom: 17px;
+}
+
+.postion{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 7px;
+
+}
+
+.universty-name{
+    font-size: 25px;
+    color: #444343c0;
+    margin-bottom: 10px;
+}
+
+.eduction-desc{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 26px;
+}
+
+.eduction-information{
+    margin-bottom: 54px;
+}
+
+.postion-duration{
+    display: inline-block;
+    margin-right: 569px;
+   
+}
+
+.duration{
+    font-size: 25px;
+    color: #222;
+    font-weight: 540;
+}
+
+.employment-desc{
+    margin-bottom: 25px;
+}
+
+.employment-desc{
+    margin-bottom: 40px;
+}
+
+.employment-information{
+    margin-bottom: 54px;
+}
+
+.drawing{
+    position: relative;
+    top: 240px;
+    left: 83px;
+}
+.drawing::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(81, 168, 157, 0.815);
+    left: -10;
+    right: auto;
+    left: -30px;
+    top: 6px;
+    bottom: 0;
+}
+
+/* ************** PRIVACEY ***************** */
+
+.privacey{
+    position: relative;
+    font-size: 25px;
+    color: black;
+    bottom: 0;
+    top: 50%;
+}
+
+/* **************** APP ************** */
+
+.App{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    box-shadow: 1px -1px 10px black;
+    
+}
+.App::after {
+    content: "";
+    background: url(../CV-project/images2.png);
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
