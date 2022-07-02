@@ -58,10 +58,11 @@ color: white;
 }
 .img img{
     color: white;
-    width: 220px;
-    height: 220px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     border: 7px solid white;
+    margin-top: 43px;
     
     
 }
