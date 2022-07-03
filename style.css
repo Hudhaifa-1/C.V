@@ -408,8 +408,8 @@ html, body {margin: 0; }
 }
 .App::after {
     content: "";
-    -webkit-background: url(../CV-project/hudhaifa\ image.jpg);
-    background: url(../CV-project/hudhaifa\ image.jpg);
+    -webkit-background: url("../CV-project/images2.png");
+    background: url("../CV-project/images2.png");
     -webkit-opacity: 0.4;
     opacity: 0.4;
     top: 0;
