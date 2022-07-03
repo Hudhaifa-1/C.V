@@ -342,7 +342,7 @@ html, body {margin: 0; }
 
 .postion-duration{
     display: inline-block;
-    margin-right: 284.5px;
+    margin-right: 240px;
    
 }
 
@@ -408,15 +408,20 @@ html, body {margin: 0; }
 }
 .App::after {
     content: "";
+    -webkit-background: url(../CV-project/images2.png);
     background: url(../CV-project/images2.png);
+    -webkit-opacity: 0.4;
     opacity: 0.4;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
+    -webkit-z-index: -1;
     z-index: -1;   
+    -webkit-background-repeat: no-repeat;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
     background-size: cover;
   }
 
