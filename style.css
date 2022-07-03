@@ -435,7 +435,7 @@ html, body {margin: 0; }
    .App{
     overflow: hidden;
     margin: auto;
-    width: 50%;
+    width: 80%;
     height: 850px;
    }
 
@@ -622,7 +622,7 @@ html, body {margin: 0; }
 }
 
 .eduction-desc{
-    font-size: 6px;
+    font-size: 7px;
     color: black;
     margin-bottom: 5px;
 }
@@ -648,7 +648,7 @@ html, body {margin: 0; }
 }
 
 .employment-desc{
-    margin-bottom: 6px;
+    margin-bottom: 7px;
 }
 
 .employment-information {
@@ -667,7 +667,7 @@ html, body {margin: 0; }
 }
 
 .privacey{
-    font-size: 5px;
+    font-size: 7px;
     position: relative;
     top: -100px;
 }
@@ -682,8 +682,8 @@ html, body {margin: 0; }
     height: 3px;
     background-color: rgba(81, 168, 157, 0.815);
     position: relative;
-    top: 50px;
-    left: 15px;
+    top: 70px;
+    left: -40px;
 }
 .css-level.level::after{
     content: "";
@@ -737,7 +737,7 @@ html, body {margin: 0; }
     width: 50px;
     height: 15px;
     font-weight: 400;
-    font-size: 0.4rem;
+    font-size: 0.45rem;
 }
 
 .skl-levell{
